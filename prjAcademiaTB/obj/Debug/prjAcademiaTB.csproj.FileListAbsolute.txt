@@ -1,0 +1,32 @@
+D:\2022\2J\TB\AcademiaTB\prjAcademiaTB\bin\Debug\prjAcademiaTB.exe.config
+D:\2022\2J\TB\AcademiaTB\prjAcademiaTB\bin\Debug\prjAcademiaTB.exe
+D:\2022\2J\TB\AcademiaTB\prjAcademiaTB\bin\Debug\prjAcademiaTB.pdb
+D:\2022\2J\TB\AcademiaTB\prjAcademiaTB\obj\Debug\prjAcademiaTB.csprojResolveAssemblyReference.cache
+D:\2022\2J\TB\AcademiaTB\prjAcademiaTB\obj\Debug\prjAcademiaTB.Form1.resources
+D:\2022\2J\TB\AcademiaTB\prjAcademiaTB\obj\Debug\prjAcademiaTB.Properties.Resources.resources
+D:\2022\2J\TB\AcademiaTB\prjAcademiaTB\obj\Debug\prjAcademiaTB.csproj.GenerateResource.Cache
+D:\2022\2J\TB\AcademiaTB\prjAcademiaTB\obj\Debug\prjAcademiaTB.exe
+D:\2022\2J\TB\AcademiaTB\prjAcademiaTB\obj\Debug\prjAcademiaTB.pdb
+C:\Projetos MINAS\AcademiaTB\prjAcademiaTB\obj\Debug\prjAcademiaTB.csproj.AssemblyReference.cache
+C:\Projetos MINAS\AcademiaTB\prjAcademiaTB\obj\Debug\prjAcademiaTB.csproj.SuggestedBindingRedirects.cache
+C:\Projetos MINAS\AcademiaTB\prjAcademiaTB\obj\Debug\prjAcademiaTB.Form1.resources
+C:\Projetos MINAS\AcademiaTB\prjAcademiaTB\obj\Debug\prjAcademiaTB.Properties.Resources.resources
+C:\Projetos MINAS\AcademiaTB\prjAcademiaTB\obj\Debug\prjAcademiaTB.csproj.GenerateResource.cache
+C:\Projetos MINAS\AcademiaTB\prjAcademiaTB\obj\Debug\prjAcademiaTB.csproj.CoreCompileInputs.cache
+C:\Projetos MINAS\AcademiaTB\prjAcademiaTB\obj\Debug\prjAcademiaTB.exe
+C:\Projetos MINAS\AcademiaTB\prjAcademiaTB\obj\Debug\prjAcademiaTB.pdb
+C:\Projetos MINAS\AcademiaTB\prjAcademiaTB\bin\Debug\prjAcademiaTB.exe.config
+C:\Projetos MINAS\AcademiaTB\prjAcademiaTB\bin\Debug\prjAcademiaTB.exe
+C:\Projetos MINAS\AcademiaTB\prjAcademiaTB\bin\Debug\prjAcademiaTB.pdb
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\bin\Debug\prjAcademiaTB.exe.config
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\bin\Debug\prjAcademiaTB.exe
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\bin\Debug\prjAcademiaTB.pdb
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\obj\Debug\prjAcademiaTB.csproj.AssemblyReference.cache
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\obj\Debug\prjAcademiaTB.csproj.SuggestedBindingRedirects.cache
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\obj\Debug\prjAcademiaTB.Form1.resources
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\obj\Debug\prjAcademiaTB.FormFichaAluno.resources
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\obj\Debug\prjAcademiaTB.Properties.Resources.resources
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\obj\Debug\prjAcademiaTB.csproj.GenerateResource.cache
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\obj\Debug\prjAcademiaTB.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\obj\Debug\prjAcademiaTB.exe
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\obj\Debug\prjAcademiaTB.pdb
