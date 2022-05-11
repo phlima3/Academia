@@ -30,3 +30,15 @@ C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\obj\Debug\prjAcademi
 C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\obj\Debug\prjAcademiaTB.csproj.CoreCompileInputs.cache
 C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\obj\Debug\prjAcademiaTB.exe
 C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\obj\Debug\prjAcademiaTB.pdb
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\bin\Debug\Eagle.dll
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\bin\Debug\Eagle.Eye.dll
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\bin\Debug\EntityFramework.dll
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\bin\Debug\System.Data.SQLite.dll
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\bin\Debug\System.Data.SQLite.SEE.License.dll
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\bin\Debug\EntityFramework.xml
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\bin\Debug\System.Data.SQLite.xml
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\obj\Debug\prjAcademiaTB.csproj.CopyComplete

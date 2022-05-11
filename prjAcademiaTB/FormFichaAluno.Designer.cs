@@ -31,16 +31,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormFichaAluno));
             this.label1 = new System.Windows.Forms.Label();
             this.pnFormulario = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtId = new System.Windows.Forms.TextBox();
-            this.txtNome = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtIdade = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtPeso = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.txtAltura = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.txtPeso = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtIdade = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.btnFechar = new System.Windows.Forms.Button();
             this.btnGravar = new System.Windows.Forms.Button();
             this.pnFormulario.SuspendLayout();
@@ -74,59 +74,23 @@
             this.pnFormulario.Size = new System.Drawing.Size(554, 299);
             this.pnFormulario.TabIndex = 1;
             // 
-            // label2
+            // txtAltura
             // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(17, 39);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(148, 30);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "MATRICULA:";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.txtAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAltura.Location = new System.Drawing.Point(171, 241);
+            this.txtAltura.Name = "txtAltura";
+            this.txtAltura.Size = new System.Drawing.Size(370, 34);
+            this.txtAltura.TabIndex = 9;
             // 
-            // txtId
+            // label6
             // 
-            this.txtId.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtId.Location = new System.Drawing.Point(171, 39);
-            this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(370, 34);
-            this.txtId.TabIndex = 1;
-            // 
-            // txtNome
-            // 
-            this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNome.Location = new System.Drawing.Point(171, 89);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(370, 34);
-            this.txtNome.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(17, 89);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(148, 30);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "NOME:";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // txtIdade
-            // 
-            this.txtIdade.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIdade.Location = new System.Drawing.Point(171, 141);
-            this.txtIdade.Name = "txtIdade";
-            this.txtIdade.Size = new System.Drawing.Size(370, 34);
-            this.txtIdade.TabIndex = 5;
-            // 
-            // label4
-            // 
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(17, 141);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(148, 30);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "IDADE:";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(17, 241);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(148, 30);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "ALTURA:";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // txtPeso
             // 
@@ -146,23 +110,59 @@
             this.label5.Text = "PESO:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // txtAltura
+            // txtIdade
             // 
-            this.txtAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAltura.Location = new System.Drawing.Point(171, 241);
-            this.txtAltura.Name = "txtAltura";
-            this.txtAltura.Size = new System.Drawing.Size(370, 34);
-            this.txtAltura.TabIndex = 9;
+            this.txtIdade.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdade.Location = new System.Drawing.Point(171, 141);
+            this.txtIdade.Name = "txtIdade";
+            this.txtIdade.Size = new System.Drawing.Size(370, 34);
+            this.txtIdade.TabIndex = 5;
             // 
-            // label6
+            // label4
             // 
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(17, 241);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(148, 30);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "ALTURA:";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(17, 141);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(148, 30);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "IDADE:";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // txtNome
+            // 
+            this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNome.Location = new System.Drawing.Point(171, 89);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(370, 34);
+            this.txtNome.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(17, 89);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(148, 30);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "NOME:";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // txtId
+            // 
+            this.txtId.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtId.Location = new System.Drawing.Point(171, 39);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(370, 34);
+            this.txtId.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(17, 39);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(148, 30);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "MATRICULA:";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnFechar
             // 
@@ -175,6 +175,7 @@
             this.btnFechar.Text = "FECHAR";
             this.btnFechar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // btnGravar
             // 
@@ -202,6 +203,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FICHA";
+            this.Load += new System.EventHandler(this.FormFichaAluno_Load);
             this.pnFormulario.ResumeLayout(false);
             this.pnFormulario.PerformLayout();
             this.ResumeLayout(false);
