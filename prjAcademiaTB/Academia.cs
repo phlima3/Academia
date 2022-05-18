@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace prjAcademiaTB
 {
-     class Academia
+    class Academia
     {
 
         public BindingList<Aluno> Alunos;
@@ -29,7 +29,7 @@ namespace prjAcademiaTB
                 System.Windows.Forms.MessageBox.Show("ERRO: " + Erro.Message);
             }
         }
-        public void Matricular (Aluno novo)
+        public void Matricular(Aluno novo)
         {
 
             try
@@ -49,11 +49,11 @@ namespace prjAcademiaTB
             }
 
 
-        }      
+        }
 
         internal void Editar(Aluno aluno)
         {
-            Aluno p = Alunos.FirstOrDefault(i=>i.Id == aluno.Id);
+            Aluno p = Alunos.FirstOrDefault(i => i.Id == aluno.Id);
             if (p != null)
             {
                 p.Nome = aluno.Nome;
@@ -62,14 +62,24 @@ namespace prjAcademiaTB
                 p.Altura = aluno.Altura;
 
             }
-            
-            
+
+
         }
 
         internal void Excluir(Aluno atual)
         {
             Aluno p = Alunos.FirstOrDefault(i => i.Id == atual.Id);
-            Alunos.Remove(p);
+            try
+            {
+                AlunoDB tabela = new AlunoDB();
+                tabela.Excluir(p);
+                Alunos.Remove(p);
+            }
+            catch (Exception Erro)
+            {
+
+                System.Windows.Forms.MessageBox.Show("ERRO: " + Erro.Message);
+            }
         }
     }
 }

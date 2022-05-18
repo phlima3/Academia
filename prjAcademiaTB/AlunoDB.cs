@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SQLite;
 using System.ComponentModel;
-
 namespace prjAcademiaTB
 {
     class AlunoDB
@@ -45,7 +44,7 @@ namespace prjAcademiaTB
                 string sql = String.Format(
                     "DELETE FROM ALUNO WHERE ID = {0}",
                     reg.Id
-                    );
+                    ); ;
                 banco.CommandText = sql;
                 banco.ExecuteNonQuery();
             }
@@ -66,8 +65,31 @@ namespace prjAcademiaTB
                         dr.GetDouble(3),
                         dr.GetDouble(4)
                         );
-
+                    Alunos.Add(item);
                 }
+            }
+        }
+        public long ProximoCodigo()
+        {
+            ServidorSQL academia = new ServidorSQL();
+            using (var banco = new SQLiteCommand(academia.Open()))
+            {
+                banco.CommandText = "SELECT MAX(ID) AS COD FROM ALUNO";
+                SQLiteDataReader dr = banco.ExecuteReader();
+                while (dr.Read())
+                {
+                    try
+                    {
+                        return dr.GetInt16(0) + 1;
+                    }
+                    catch (Exception)
+                    {
+
+                        return 1;
+                    }
+                   
+                }
+                return 1;
             }
         }
     }

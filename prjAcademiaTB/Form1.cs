@@ -65,6 +65,7 @@ namespace prjAcademiaTB
 
         private void btnExcluir_Click(object sender, EventArgs e)
         {
+            if (bs.Count == 0) return;
             Aluno atual = (Aluno)bs.Current;
             DialogResult op;
             op = MessageBox.Show("Deseja excluir? " +
@@ -75,6 +76,11 @@ namespace prjAcademiaTB
                 bs.ResetBindings(false);
                 dgvAlunos.AutoResizeColumns();
             }
+        }
+
+        private void dgvAlunos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

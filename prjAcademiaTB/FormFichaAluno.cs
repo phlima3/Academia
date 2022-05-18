@@ -21,11 +21,49 @@ namespace prjAcademiaTB
         }
 
         private void btnGravar_Click(object sender, EventArgs e)
-        {
+        {   
+            if(validacao() == false) return;
+
             if (Registro == null) novo();
             else editar();
             this.Dispose();
         }
+
+        private bool validacao()
+        {
+            if(txtNome.Text.Equals(""))
+            {
+                ep.SetError(txtNome, "Nome vazio");
+                ep.SetIconPadding(txtNome, -30);
+                return false;
+            }else{
+                ep.SetError(txtNome, "");
+                 }
+            if(Convert.ToInt16(txtIdade.Text) < 15)
+            {
+                ep.SetError(txtIdade, "Idade inválida (<15)");
+                ep.SetIconPadding(txtIdade, -30);
+                return false;
+            }
+            else
+            {
+                ep.SetError(txtIdade, "");
+            }
+            if(Convert.ToInt16(txtPeso.Text) < 50)
+            {
+                ep.SetError(txtPeso, "Peso inválido (<50)");
+                ep.SetIconPadding(txtPeso, -30);
+
+                return false;
+            }
+            else
+            {
+                ep.SetError(txtPeso, "");
+
+            }
+            return true;
+        }
+
         private void novo()
         {
             Registro = new Aluno(
@@ -41,8 +79,8 @@ namespace prjAcademiaTB
         {
             Registro.Id = Int32.Parse(txtId.Text);
             Registro.Nome = txtNome.Text;
-            Registro.Idade = Int16.Parse(txtIdade.Text);
-            Registro.Peso = Int16.Parse(txtPeso.Text);
+                Registro.Idade = Int16.Parse(txtIdade.Text);
+                Registro.Peso = Int16.Parse(txtPeso.Text);
             Registro.Altura = double.Parse(txtAltura.Text);
             MessageBox.Show("Matricula Editada");
         }
@@ -59,6 +97,12 @@ namespace prjAcademiaTB
                 txtId.ReadOnly = true;
 
             }
+            else
+            {
+                AlunoDB tabela = new AlunoDB();
+                txtId.Text = tabela.ProximoCodigo().ToString();
+                txtId.ReadOnly = true;
+            }
         }
 
         private void btnFechar_Click(object sender, EventArgs e)
@@ -66,5 +110,7 @@ namespace prjAcademiaTB
             Registro = null;
             this.Dispose();
         }
+
+      
     }
 }
