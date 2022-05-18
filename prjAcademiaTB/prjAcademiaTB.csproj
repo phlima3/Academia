@@ -76,6 +76,7 @@
   <ItemGroup>
     <Compile Include="Academia.cs" />
     <Compile Include="Aluno.cs" />
+    <Compile Include="AlunoDB.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

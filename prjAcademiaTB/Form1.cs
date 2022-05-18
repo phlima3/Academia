@@ -29,6 +29,7 @@ namespace prjAcademiaTB
             }
 
             BoaForma = new Academia (new BindingList<Aluno>());
+            BoaForma.Preencher();
             bs.DataSource = BoaForma.Alunos;
             dgvAlunos.DataSource = bs;
             dgvAlunos.AutoResizeColumns();
