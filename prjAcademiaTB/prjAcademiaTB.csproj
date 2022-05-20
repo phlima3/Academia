@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>prjAcademiaTB</RootNamespace>
     <AssemblyName>prjAcademiaTB</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
@@ -89,6 +89,12 @@
     <Compile Include="FormFichaAluno.Designer.cs">
       <DependentUpon>FormFichaAluno.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPesquisar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPesquisar.Designer.cs">
+      <DependentUpon>FormPesquisar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServidorSQL.cs" />
@@ -97,6 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormFichaAluno.resx">
       <DependentUpon>FormFichaAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPesquisar.resx">
+      <DependentUpon>FormPesquisar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

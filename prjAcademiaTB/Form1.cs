@@ -78,9 +78,10 @@ namespace prjAcademiaTB
             }
         }
 
-        private void dgvAlunos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void btnPesquisar_Click(object sender, EventArgs e)
         {
-
+            FormPesquisar pesquisa = new FormPesquisar();
+            pesquisa.ShowDialog();
         }
     }
 }

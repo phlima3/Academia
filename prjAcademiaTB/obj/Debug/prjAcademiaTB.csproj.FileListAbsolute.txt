@@ -45,3 +45,4 @@ C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\obj\Debug\prjAcademi
 \\10.0.20.161\Academia\prjAcademiaTB\bin\Debug\prjAcademiaTB.exe.config
 \\10.0.20.161\Academia\prjAcademiaTB\obj\Debug\prjAcademiaTB.exe
 \\10.0.20.161\Academia\prjAcademiaTB\obj\Debug\prjAcademiaTB.pdb
+C:\Users\Pedro Lima\Documents\GitHub\Academia\prjAcademiaTB\obj\Debug\prjAcademiaTB.FormPesquisar.resources
